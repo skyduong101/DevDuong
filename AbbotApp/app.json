@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Abbott Estimator",
+    "icon": "./src/assets/images/icon.png",
+    "slug": "abbott-estimator",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./src/assets/splash/abbott-loading.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#191919"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.AbbottConstruction.AbbottEstimator",
+      "buildNumber": "0.1.0",
+      "supportsTablet": true
+    },
+    "description": "Abbott Construction application used to create pre-construction estimates of commercial building costs."
+  }
+}
